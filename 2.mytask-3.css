@@ -1,0 +1,258 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #allcontent{
+      background:url(https://i.pinimg.com/originals/a9/19/f0/a919f0cbf2f7183dfac81dfce55bfe83.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color:white;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  #sign {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);    
+}
+
+.rainbow {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+#Title
+{
+  margin: auto;
+  width: 100%;
+ 
+  padding: 10px;
+  color: orangered;  
+  font-size:35px;
+  -webkit-text-stroke: 1px black;
+}
+#Title:hover{
+background-color:transparent ;
+font: size 40px;
+color:aquamarine;
+-webkit-text-stroke: 1px black;
+}
+#form
+{
+    color:yellow;
+    font-size: 25px;
+    text-shadow: 2px 0 0 red, -2px 0 0 red, 0 2px 0 red, 0 -2px 0 red, 1px 1px red, -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table,tr,td 
+        {
+            border: 5px solid transparent;
+        }
+input[type='checkbox']
+{
+     width: 15px;
+    height: 15px;
+ }
+ input[type='radio']
+ {
+    width: 15px;
+    height: 15px; 
+ }
+ input[type='text'],input[type='email'],input[type='url']
+        {
+            outline: none;
+            border: 3px solid black;
+            border-radius: 5px;
+            height: 30px;
+            width: 220px;
+        }
+.BUTTONS td {
+     padding-top: 100px;
+} 
+ .submit
+        {
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            border: 2px;
+            background-color:green;
+            color: yellow;
+            border-radius: 10px;
+            cursor: pointer;
+            border-style:groove;
+            
+        }
+.submit:hover{
+     
+    color:white;
+    box-shadow: 10px 5px 5px grey; 
+    width: 230px;
+    height: 55px; 
+} 
+.reset
+{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border: 2px;
+    background-color:red;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style:groove;
+ 
+}
+.reset:hover{
+
+color:white;
+box-shadow: 10px 5px 5px grey; 
+width: 230px;
+height: 55px; 
+} 
+input[type='text'],input[type='email'],input[type='url']
+        {
+            border: 7px solid red;
+            border-color: red;
+            border-style:ridge;
+            border-bottom-left-radius: 5px;
+            height: 40px;
+            width: 250px;
+            background-color: lightgrey;
+            color:black;
+            font-weight:bolder;
+        }   
+        .tab2,
+        .tab2 th,
+        .tab2 td,
+        .tab2 tr {
+          border: 4px solid red;
+          
+        }
+        thead {
+          text-align: center;
+          background-color: rgb(68, 154, 224);
+          color: red;
+        }
+        #tab2,
+        #th2,
+        #tb2 {
+          text-align: left;
+          
+        }
+        #th2 th {
+          padding: 50px;
+        }
+        #tb2 > tr td:nth-child(1) {
+          width: 75%;
+        }
+        #tb2 > tr td:nth-child(2) {
+          width: 25%;
+        }
+        #tab2 {
+          margin: 0 auto;
+          width: 90%;
+          white-space: pre;
+          background-color: transparent;
+          margin-bottom: 150px;
+        } 
+        #tab2:hover{
+          background-color: black;
+        }
+    
+    .tcenter {
+      margin: 0 auto;
+    }
+    .hrline {
+      display: none;
+    }
+    @media (max-width: 1000px) {
+      .d21,
+      .d22 {
+        width: 100%;
+      }
+      .tcenter {
+        margin: 0 auto;
+      }
+      .hrline {
+        display: block;
+        height: 3px;
+        outline: none;
+        background-color: black;
+      }
+      .change {
+        color: white;
+      }
+      .change:hover {
+        background-color: green;
+        cursor: pointer;
+      }
+      #id {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    }
+    #Title{
+  
+  
+        font-size: 40px;
+        color:white;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+        -webkit-text-stroke: 1px black;
+      }
+      
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px lightblue, 0 0 30px lightblue, 0 0 40px lightblue, 0 0 50px lightblue, 0 0 60px lightblue;
+        }
+        to {
+          text-shadow: 0 0 10px #fff, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+        }
+      }
+      
+#box1{
+    border: 5px solid red;
+}
+#myform
+{
+    color:white;
+    font-size: 25px;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Title
+{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  -webkit-text-stroke: 1px black;
+}
+#regtable{
+  background-color: white;
+}
+#regtable:hover{
+  background-color: transparent;
+}

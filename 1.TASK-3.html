@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Enrollment Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="2.mytask-3.css">
+</head>
+
+<body><div id="allcontent"> <div class="d1"><div id="total">
+    <div id="sign">
+        <em><strong><p class="rainbow rainbow_text_animated">Coded by ARUN_THE_TECHNO_WIZ</p></strong></em>
+      </div>
+    <center>
+      <h2><div id="Title">"Student Registration Form</h2></div>
+    </center>
+  </div>
+  <div class="d2">
+    <div class="d21"><div id="myform">
+      <form name="myform">
+        <table class="tcenter">
+          <tr>
+            <td> Name</td>
+            <td><input type="text" placeholder="Student name" id="name" /></td>
+          </tr>
+          
+          <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="Student Email" id="email" /></td>
+          </tr>
+          <tr>
+            <td>Website</td>
+            <td><input type="url" placeholder="Website URL" id="web" /></td>
+          </tr>
+          <tr>
+            <td>profile Link</td>
+            <td><input type="url" placeholder="profile picture link" id="image" /></td>
+          </tr>
+          <tr class="skill">
+            <td style="vertical-align: top;">Gender</td>
+            <td>
+              <input type="radio" id="gen1" name="gender" value="male" />&nbsp;<label>Male</label>
+              &emsp;&emsp;
+              <input type="radio" id="gen2" name="gender" value="female" />&nbsp;<label>Female</label>
+            </td>
+          </tr>
+          
+          <tr class="skill">
+            <td>Skills</td>
+            <td>
+              <input class="skill" type="checkbox" id="html" value="HTML" />&nbsp;<label>HTML</label><br>
+              <input class="skill" type="checkbox" id="css" value="CSS" />&nbsp;<label>CSS</label><br>
+              <input class="skill" type="checkbox" id="Java_Script" value="Java_Script" checked />&nbsp;<label>Java_Script</label><br>
+              
+              
+            </td>
+          </tr>
+          <tr class="submission">
+            <td><br><br><input type="button" name="submit" class="submit" id="submit" value="Enroll Student" onclick="generate()" /></td>
+            <td><br><br>&emsp;&emsp;&emsp;<input type="reset" name="reset" class="reset" value="Clear" /></td>
+          </tr>
+        </table>
+      </form></div>
+    </div>
+    <hr class="hrline">
+    <div class="d22" id="d22">
+      <center>
+        <h1><div id="Title">Registered Students</div></h1>
+      </center>
+      <br><br>
+      <table class="tab2" id="tab2">
+        <thead id="th2"><div id="regtable"></div>
+          <th>Student Details</th>
+          <th>Profile Picture</th>
+        </div></thead>
+        <tbody id="tb2">
+          <tr style="text-align: center;" id="empty">
+            
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div><br><br><br><br><br><br><br><br><br><br><br></div><script src="3.task3.js"></script></div>
+  
+</body>
+
+</html>
